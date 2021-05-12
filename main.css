@@ -1,6 +1,6 @@
 /* default: small screen */
 body {
-  font-family: sans-serif;
+  font-family: 'Spartan', sans-serif;
   font-size: 1rem;
   position: relative;
 }
@@ -46,17 +46,18 @@ h1 {
 
 /* title */
 .title__main {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 2.3rem;
 }
 
 .title__sub {
-  font-weight: 200;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 /* rating */
 .rating {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .rating-card {
@@ -92,16 +93,16 @@ h1 {
 
 .testimonial-card__name {
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .testimonial-card__identity {
   font-size: 1rem;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .testimonial-card__user-review {
-  font-weight: 200;
+  font-weight: 400;
   line-height: 1.5;
 }
 
@@ -148,6 +149,10 @@ h1 {
 /* big screen */
 @media (min-width: 1200px) {
 
+  body {
+    font-size: 0.8rem;
+  }
+
   h1 {
     margin-bottom: 0;
   }
@@ -179,6 +184,10 @@ h1 {
 
   .title__main {
     font-size: 3rem;
+  }
+
+  .title__sub {
+    font-size: 1rem;
   }
 
 /* rating */
