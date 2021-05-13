@@ -71,10 +71,10 @@ Align items to the outer edges, then shift them towards inside, that way can kee
     right: 80px;
   }
 
-  .rating-card__2 {
-    position: relative;
-    right: 40px;
-  }
+.rating-card__2 {
+  position: relative;
+  right: 40px;
+}
 ```
 
 #### Put sections side by side without Flex
