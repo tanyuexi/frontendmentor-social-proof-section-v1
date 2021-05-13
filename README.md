@@ -11,6 +11,9 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+    - Content wrapping and background images
+    - When shifting using `position: relative`, shift them inwards
+    - Put sections side by side without Flex
   - [Continued development](#continued-development)
 
 
